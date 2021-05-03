@@ -1,5 +1,9 @@
 @import './scss/resets', './scss/variables';
 
+@function weight($weight-name) {
+    @return map-get($map: $font-weights, $key: $weight-name);
+}
+
 body {
     background: $primary-color;
     color: $text-color;
@@ -10,7 +14,7 @@ body {
     margin: 0 auto;
 
     #{&}__paragraph {
-        font-weight: map-get($map: $font-weights, $key: bold);
+        font-weight: weight(bold);
 
         &:hover {
             color: pink;
