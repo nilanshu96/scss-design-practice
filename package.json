@@ -2,10 +2,9 @@
   "name": "scss-practice",
   "version": "1.0.0",
   "description": "Space for practicing scss",
-  "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --no-cache",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
