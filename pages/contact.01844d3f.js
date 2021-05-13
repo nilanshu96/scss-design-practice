@@ -1,0 +1,2 @@
+!function(){const e=document.querySelector(".menu-btn"),n=document.querySelector(".menu-btn__burger"),o=document.querySelector(".nav"),t=document.querySelector(".menu-nav"),s=document.querySelectorAll(".menu-nav__item");let c=!1;e.addEventListener("click",(function(){c?(n.classList.remove("open"),o.classList.remove("open"),t.classList.remove("open"),s.forEach((e=>e.classList.remove("open"))),c=!1):(n.classList.add("open"),o.classList.add("open"),t.classList.add("open"),s.forEach((e=>e.classList.add("open"))),c=!0)}))}();
+//# sourceMappingURL=contact.01844d3f.js.map
